@@ -14,6 +14,7 @@
 		D372387427EBD3AA008BAD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372387327EBD3AA008BAD46 /* Assets.xcassets */; };
 		D372387727EBD3AA008BAD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D372387527EBD3AA008BAD46 /* LaunchScreen.storyboard */; };
 		D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372387E27EBD42F008BAD46 /* StarategyPattern.swift */; };
+		D372388127EBDA9C008BAD46 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D372387627EBD3AA008BAD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D372387827EBD3AA008BAD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D372387E27EBD42F008BAD46 /* StarategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarategyPattern.swift; sourceTree = "<group>"; };
+		D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D372386C27EBD3A7008BAD46 /* SceneDelegate.swift */,
 				D372386E27EBD3A7008BAD46 /* ViewController.swift */,
 				D372387E27EBD42F008BAD46 /* StarategyPattern.swift */,
+				D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */,
 				D372387027EBD3A7008BAD46 /* Main.storyboard */,
 				D372387327EBD3AA008BAD46 /* Assets.xcassets */,
 				D372387527EBD3AA008BAD46 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D372386F27EBD3A7008BAD46 /* ViewController.swift in Sources */,
+				D372388127EBDA9C008BAD46 /* DecoratorPattern.swift in Sources */,
 				D372386B27EBD3A7008BAD46 /* AppDelegate.swift in Sources */,
 				D372386D27EBD3A7008BAD46 /* SceneDelegate.swift in Sources */,
 				D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */,
