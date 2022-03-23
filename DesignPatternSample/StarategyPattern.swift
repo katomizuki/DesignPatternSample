@@ -7,7 +7,7 @@
 
 import Foundation
 
-// アルゴリズム部分を一部定義し、それらを簡単に交換可能なものにする。
+// アルゴリズム部分(戦略)を一部定義し、それらを簡単に交換可能なものにする。
 protocol FlyBehaivor {
     static func fly()
 }
@@ -62,3 +62,48 @@ struct Pokemon {
 }
 
 // 呼び出し側ではsetFlyTypeでenumを変えるだけでfly()というアルゴリズムの挙動を交換できる
+
+// 共通戦略 (アルゴリズム)
+protocol Strategy {
+    func getHand() -> Int
+}
+
+// 個別のアルゴリズム
+struct RockStrategy: Strategy {
+    func getHand() -> Int {
+        return 2
+    }
+    
+    
+}
+
+struct RandomStrategy: Strategy {
+    func getHand() -> Int {
+        return 1
+    }
+}
+
+struct Player {
+    let name: String
+    let strategy: Strategy
+    
+    public func getHandFromStrategy() -> Int {
+        return strategy.getHand()
+    }
+}
+
+struct Game {
+    static func fight(player1: Player, player2: Player) -> String {
+        if player1.getHandFromStrategy() == player2.getHandFromStrategy() {
+            return "Draw"
+        }
+        
+        if (player1.getHandFromStrategy() + 1) % 3 == player2.getHandFromStrategy() {
+            return "win"
+        }
+        
+        return "lose"
+    }
+}
+// 実際に呼び出す strategyを入れ替えるだけでアルゴリズムを差し替えられる。
+//Game.fight(player1: Player(name: "", strategy: RockStrategy()), player2: Player(name: "", strategy: RandomStrategy()))
