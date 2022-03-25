@@ -16,6 +16,7 @@
 		D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372387E27EBD42F008BAD46 /* StarategyPattern.swift */; };
 		D372388127EBDA9C008BAD46 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */; };
 		D372388327EDD2DE008BAD46 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388227EDD2DE008BAD46 /* CommandPattern.swift */; };
+		D372388527EDDAB9008BAD46 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388427EDDAB9008BAD46 /* AdapterPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D372387E27EBD42F008BAD46 /* StarategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarategyPattern.swift; sourceTree = "<group>"; };
 		D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		D372388227EDD2DE008BAD46 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
+		D372388427EDDAB9008BAD46 /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D372387E27EBD42F008BAD46 /* StarategyPattern.swift */,
 				D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */,
 				D372388227EDD2DE008BAD46 /* CommandPattern.swift */,
+				D372388427EDDAB9008BAD46 /* AdapterPattern.swift */,
 				D372387027EBD3A7008BAD46 /* Main.storyboard */,
 				D372387327EBD3AA008BAD46 /* Assets.xcassets */,
 				D372387527EBD3AA008BAD46 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				D372386B27EBD3A7008BAD46 /* AppDelegate.swift in Sources */,
 				D372386D27EBD3A7008BAD46 /* SceneDelegate.swift in Sources */,
 				D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */,
+				D372388527EDDAB9008BAD46 /* AdapterPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
