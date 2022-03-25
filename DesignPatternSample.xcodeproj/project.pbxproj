@@ -18,6 +18,8 @@
 		D372388327EDD2DE008BAD46 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388227EDD2DE008BAD46 /* CommandPattern.swift */; };
 		D372388527EDDAB9008BAD46 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388427EDDAB9008BAD46 /* AdapterPattern.swift */; };
 		D372388727EDE0D8008BAD46 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388627EDE0D8008BAD46 /* Facade.swift */; };
+		D372388927EDE2C6008BAD46 /* SelfIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388827EDE2C6008BAD46 /* SelfIntroduction.swift */; };
+		D372388B27EDE449008BAD46 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388A27EDE449008BAD46 /* Iterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		D372388227EDD2DE008BAD46 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		D372388427EDDAB9008BAD46 /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		D372388627EDE0D8008BAD46 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		D372388827EDE2C6008BAD46 /* SelfIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroduction.swift; sourceTree = "<group>"; };
+		D372388A27EDE449008BAD46 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */,
 				D372388227EDD2DE008BAD46 /* CommandPattern.swift */,
 				D372388427EDDAB9008BAD46 /* AdapterPattern.swift */,
+				D372388827EDE2C6008BAD46 /* SelfIntroduction.swift */,
+				D372388A27EDE449008BAD46 /* Iterator.swift */,
 				D372387027EBD3A7008BAD46 /* Main.storyboard */,
 				D372387327EBD3AA008BAD46 /* Assets.xcassets */,
 				D372387527EBD3AA008BAD46 /* LaunchScreen.storyboard */,
@@ -156,8 +162,10 @@
 				D372386F27EBD3A7008BAD46 /* ViewController.swift in Sources */,
 				D372388127EBDA9C008BAD46 /* DecoratorPattern.swift in Sources */,
 				D372388327EDD2DE008BAD46 /* CommandPattern.swift in Sources */,
+				D372388B27EDE449008BAD46 /* Iterator.swift in Sources */,
 				D372388727EDE0D8008BAD46 /* Facade.swift in Sources */,
 				D372386B27EBD3A7008BAD46 /* AppDelegate.swift in Sources */,
+				D372388927EDE2C6008BAD46 /* SelfIntroduction.swift in Sources */,
 				D372386D27EBD3A7008BAD46 /* SceneDelegate.swift in Sources */,
 				D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */,
 				D372388527EDDAB9008BAD46 /* AdapterPattern.swift in Sources */,
