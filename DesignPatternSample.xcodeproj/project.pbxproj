@@ -20,6 +20,10 @@
 		D372388727EDE0D8008BAD46 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388627EDE0D8008BAD46 /* Facade.swift */; };
 		D372388927EDE2C6008BAD46 /* SelfIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388827EDE2C6008BAD46 /* SelfIntroduction.swift */; };
 		D372388B27EDE449008BAD46 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388A27EDE449008BAD46 /* Iterator.swift */; };
+		D372388D27EDE866008BAD46 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388C27EDE866008BAD46 /* Composite.swift */; };
+		D372388F27EE796D008BAD46 /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388E27EE796D008BAD46 /* StatePattern.swift */; };
+		D372389127EE7A81008BAD46 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372389027EE7A81008BAD46 /* Factory.swift */; };
+		D372389327EE7CC6008BAD46 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372389227EE7CC6008BAD46 /* AbstractFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		D372388627EDE0D8008BAD46 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		D372388827EDE2C6008BAD46 /* SelfIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroduction.swift; sourceTree = "<group>"; };
 		D372388A27EDE449008BAD46 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		D372388C27EDE866008BAD46 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		D372388E27EE796D008BAD46 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
+		D372389027EE7A81008BAD46 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		D372389227EE7CC6008BAD46 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,11 @@
 				D372388227EDD2DE008BAD46 /* CommandPattern.swift */,
 				D372388427EDDAB9008BAD46 /* AdapterPattern.swift */,
 				D372388827EDE2C6008BAD46 /* SelfIntroduction.swift */,
+				D372388C27EDE866008BAD46 /* Composite.swift */,
+				D372388E27EE796D008BAD46 /* StatePattern.swift */,
 				D372388A27EDE449008BAD46 /* Iterator.swift */,
+				D372389027EE7A81008BAD46 /* Factory.swift */,
+				D372389227EE7CC6008BAD46 /* AbstractFactory.swift */,
 				D372387027EBD3A7008BAD46 /* Main.storyboard */,
 				D372387327EBD3AA008BAD46 /* Assets.xcassets */,
 				D372387527EBD3AA008BAD46 /* LaunchScreen.storyboard */,
@@ -164,8 +176,12 @@
 				D372388327EDD2DE008BAD46 /* CommandPattern.swift in Sources */,
 				D372388B27EDE449008BAD46 /* Iterator.swift in Sources */,
 				D372388727EDE0D8008BAD46 /* Facade.swift in Sources */,
+				D372389127EE7A81008BAD46 /* Factory.swift in Sources */,
+				D372389327EE7CC6008BAD46 /* AbstractFactory.swift in Sources */,
 				D372386B27EBD3A7008BAD46 /* AppDelegate.swift in Sources */,
+				D372388D27EDE866008BAD46 /* Composite.swift in Sources */,
 				D372388927EDE2C6008BAD46 /* SelfIntroduction.swift in Sources */,
+				D372388F27EE796D008BAD46 /* StatePattern.swift in Sources */,
 				D372386D27EBD3A7008BAD46 /* SceneDelegate.swift in Sources */,
 				D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */,
 				D372388527EDDAB9008BAD46 /* AdapterPattern.swift in Sources */,
