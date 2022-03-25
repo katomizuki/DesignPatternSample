@@ -17,6 +17,7 @@
 		D372388127EBDA9C008BAD46 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */; };
 		D372388327EDD2DE008BAD46 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388227EDD2DE008BAD46 /* CommandPattern.swift */; };
 		D372388527EDDAB9008BAD46 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388427EDDAB9008BAD46 /* AdapterPattern.swift */; };
+		D372388727EDE0D8008BAD46 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372388627EDE0D8008BAD46 /* Facade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D372388027EBDA9C008BAD46 /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		D372388227EDD2DE008BAD46 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		D372388427EDDAB9008BAD46 /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
+		D372388627EDE0D8008BAD46 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		D372386927EBD3A7008BAD46 /* DesignPatternSample */ = {
 			isa = PBXGroup;
 			children = (
+				D372388627EDE0D8008BAD46 /* Facade.swift */,
 				D372386A27EBD3A7008BAD46 /* AppDelegate.swift */,
 				D372386C27EBD3A7008BAD46 /* SceneDelegate.swift */,
 				D372386E27EBD3A7008BAD46 /* ViewController.swift */,
@@ -153,6 +156,7 @@
 				D372386F27EBD3A7008BAD46 /* ViewController.swift in Sources */,
 				D372388127EBDA9C008BAD46 /* DecoratorPattern.swift in Sources */,
 				D372388327EDD2DE008BAD46 /* CommandPattern.swift in Sources */,
+				D372388727EDE0D8008BAD46 /* Facade.swift in Sources */,
 				D372386B27EBD3A7008BAD46 /* AppDelegate.swift in Sources */,
 				D372386D27EBD3A7008BAD46 /* SceneDelegate.swift in Sources */,
 				D372387F27EBD42F008BAD46 /* StarategyPattern.swift in Sources */,
